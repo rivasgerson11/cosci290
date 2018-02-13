@@ -44,7 +44,7 @@ public class TestInput{
     
     System.out.println("How old are you?");
     
-    age = input.nextInt(); //. nextInt() is for int types
+    int age = input.nextInt(); //. nextInt() is for int types
     
     System.out.println("You are" + age + "years old!");
     
