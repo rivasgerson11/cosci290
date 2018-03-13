@@ -1,0 +1,30 @@
+Gerson Rivas
+Co Sci 290
+
+Actual Parameter - An actual parameter is input that is actually assgined while it is passed
+
+Ambiguous Ivnocation - When there is more than one invocation but the compiler can't choose one
+causing a compiler error
+
+Argument - Actual parameters (placeholders) are also known as arguments
+
+Divide and Conquer - A method to break down large code into smaller parts
+
+Formal Parameter - When you define an argument like " public int add(int x, int y) "
+
+information hiding - When the details of implementaion are hidden in the method
+so that the client can't see
+
+method - a bunch of statements that complete a task
+
+method abstraction - seperates the use of a method from it's abstraction
+
+method overloading - when two methods have the same name but different parameters
+
+Method signature - the method name and parameter are called the method signature
+
+pass-by-value - if an argument is a variable with no value, the value passes to the other variable
+
+scope of variables - variables declared inside a method
+
+stepwise refinement - when a block of code is broken down into sub problems
