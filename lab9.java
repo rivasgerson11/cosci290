@@ -1,3 +1,8 @@
+/* Gerson Rivas 
+Co Sci 290
+Lab 9*/
+
+
 
 import java.util.Scanner;
 
