@@ -1,0 +1,16 @@
+"Story.txt"
+" Soldier: Hey there survivor! "
+Survivor: Hey there!
+Soldier: What is your name?
+Survivor: Gerson
+Soldier: Wow Gerson I can't believe you're still alive!   
+Gerson: It has been a struggle trying to staying alive, but I've been holding them zombies back   
+Soldier:  How many days have you been stranded by yourself on this island?   
+Gerson: I've kept myself alive for 15 days.    
+Soldier: Great!
+Soldier: Well you're the last survivor, so we must now get back to the chopper!   
+Gerson: But, we must fight our way through!
+Soldier: Yes, take this weapon and we might have a chance to make it through. 
+Gerson: Lets get to the chopper!
+    
+========================================== zombies loading ==========================================
