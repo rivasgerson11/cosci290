@@ -1,22 +1,21 @@
-/* 
-Gerson Rivas
-Co Sci 290
-Homework 1
-*/
-
 import java.util.Scanner;
-
-public class GameDriver2{
-  
-  public static void main(String[] args){
+public class TextAdventure{
+ public static void main(String[] args){
     
   
   // Initialize Scanner  input
   Scanner input = new Scanner(System.in);
   Utility tool = new Utility(); // instantiate Utility for use
   SplashScreen splash = new SplashScreen();  
+  InputDrive write = new InputDrive();
+  
+  
   String name = ""; 
-    
+   
+  
+  tool.readFile("Doc.txt");
+   
+  write.writeFile("UserInput.txt");
         
   splash.intro();
   
@@ -43,16 +42,8 @@ public class GameDriver2{
   else{
     System.out.println(" The " + chanceOfSurviving + " zombies ate your brains, you died ");
     
-  splash.gameOver(); 
-                                           
-    
-    
-    
-    
+  splash.gameOver();                                     
   }   
-    
-    
-  }
-  
-  
+
+ }
 }

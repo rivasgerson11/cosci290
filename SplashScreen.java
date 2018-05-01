@@ -1,5 +1,5 @@
 //class which holds splashscreens
-public class SplashScreen {
+public class SplashScreen{
   
   //intro splashscreen method
   public void intro(){
