@@ -37,11 +37,16 @@ public class TicTacToe{
       row = input.nextInt();
       System.out.println("Please enter 0, 1, 2 for col");
       col = input.nextInt();
-      changeXO();
+       if(board[row][col] != ' '){
+      System.out.println("That space is taken, try again");
+      continue;
+    }
       move(row, col);
+      changeXO();
+      
       if(checkWinner()){
         gameOver = true;
-        
+        printBoard();
       }
       
     }
@@ -81,7 +86,7 @@ public class TicTacToe{
 
     
   }//end of changeXO
-  
+   
   /*
     If there isn't already an x or o in that row and col
     place the character in the array.
@@ -89,9 +94,10 @@ public class TicTacToe{
     Else prompt the user to try again because there's already an x or o here.
   */
   public static void move(int row, int col){
-    Scanner input = new Scanner(System.in);
-     
-    if( xo == 'o'){
+ 
+   
+    
+    if( xo == 'x'){
       if(row == 0 && col == 0 ){
         board[0][0] = 'x';
       }
@@ -121,7 +127,7 @@ public class TicTacToe{
       }
      
     }
-    if( xo == 'x'){
+    if( xo == 'o'){
       if(row == 0 && col == 0 ){
         board[0][0] = 'o';
       }
@@ -151,18 +157,44 @@ public class TicTacToe{
       }
      
     }
-    
-    
+        
+   
   }//end of move
   
   /*
     Returns true if there there is a winner or a draw to end the game
   */
   public static boolean checkWinner(){
+   boolean temp = false;
+    if (board[0][0] == board[0][1] &&  board[0][0] == board[0][2] && board[0][0] != ' '){
+      temp = true;
+    }
+     if (board[1][0] == board[1][1] &&  board[1][0] == board[1][2] && board[1][0] != ' '){
+      temp = true;
+    }
+     if (board[2][0] == board[2][1] &&  board[2][0] == board[2][2] && board[2][0] != ' '){
+      temp = true;
+    }
+    if (board[0][0] == board[1][0] &&  board[0][0] == board[2][0] && board[0][0] != ' '){
+      temp = true;
+    }
+    if (board[0][1] == board[1][1] &&  board[0][1] == board[2][1] && board[0][1] != ' '){
+      temp = true;
+    }
+    if (board[0][2] == board[1][2] &&  board[0][2] == board[2][2] && board[0][2] != ' '){
+      temp = true;
+    }
+    if (board[0][0] == board[1][1] &&  board[0][0] == board[2][2] && board[0][0] != ' '){
+      temp = true;
+    }
+    if (board[0][2] == board[1][1] &&  board[0][2] == board[2][0] && board[0][2] != ' '){
+      temp = true;
+    }
+     
     
-
+  return temp;
     
-    return false;
+   
     
   }//end of checkWinner
   
