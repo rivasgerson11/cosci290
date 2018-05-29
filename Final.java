@@ -23,12 +23,12 @@ public class Final{
     int row = 0;
     int col = 0;
     
-    System.out.println("Let's play Tic Tac Toe!");
+    System.out.println("Let's play connect 4!");
        
     //while there isn't a winner
     while(!gameOver){
       printBoard();
-      System.out.println("It is " + xo + "'s turn. Please enter 0, 1, 2 for col");
+      System.out.println("It is " + xo + "'s turn. Please enter 0, 1, 2,3,4,5 for col");
       col = input.nextInt();
       
       
