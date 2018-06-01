@@ -1,0 +1,2 @@
+soldier: "You chose under ground, and look we found a new stash of weapons, choose one"
+Enter 1 to choose an AR15 machine gun or Enter 2 to choose a pump action shotgun. 

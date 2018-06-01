@@ -7,9 +7,7 @@ cantine, gasoline, car, truck, tire, spark plug, tool kit, barricade
 Summary: My Game is a zombie game about a survivor who is trapped on an island 
 surrounded by the zombie apocalypse. His mission is to escape the horde of zombies 
 without being bit in order to survive and get to the checkpoint where he must 
-await the helicopter that will take him to safety. He wil use the objects 
-found in the game in order to defend himself from the zombies. He will 
-also be on the lookout for food and water. The soldier character must find the stranded 
-survivor so that they can  get to the helicopter checkpoint where they will be saved 
-from the acopalypse.
-    
+await the helicopter that will take him to safety. The survivors must make the smartest 
+decisions based on their surroundings in order to survive. The Island is based on a city
+with sewage ways, tunnels, streets, buildings, water, grass, etc. These surroundings can 
+save day for the survivors or they can be the end for them. Enjoy (;

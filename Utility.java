@@ -10,6 +10,7 @@ public class Utility{
   this method opens a file and prints out each line.
   */
   public void readFile(String filename){
+    String key = "";
     
     String currentLine; //hold current line being read in file
 
@@ -17,6 +18,7 @@ public class Utility{
     try(BufferedReader br = new BufferedReader(new FileReader(filename))){
       //read each line in the file until EOF
       while((currentLine = br.readLine()) != null){
+        key += currentLine;
         System.out.println(currentLine);
       }
     //if there is no file to open, the exception will be caught  

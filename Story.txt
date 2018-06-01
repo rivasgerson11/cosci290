@@ -1,16 +1,7 @@
 "Story.txt"
-" Soldier: Hey there survivor! "
-Survivor: Hey there!
-Soldier: What is your name?
-Survivor: Gerson
-Soldier: Wow Gerson I can't believe you're still alive!   
-Gerson: It has been a struggle trying to staying alive, but I've been holding them zombies back   
-Soldier:  How many days have you been stranded by yourself on this island?   
-Gerson: I've kept myself alive for 15 days.    
-Soldier: Great!
-Soldier: Well you're the last survivor, so we must now get back to the chopper!   
-Gerson: But, we must fight our way through!
-Soldier: Yes, take this weapon and we might have a chance to make it through. 
-Gerson: Lets get to the chopper!
-    
-========================================== zombies loading ==========================================
+" Soldier: Hey there survivor! I can't believe you're still alive! "
+"Well we must find our way to the helicopter checkpoint aproximately 17 miles north through
+the zombie plagued town "
+"Soldier: In order to get into the city we must go through this bridge, looks like we got a wave of zombies 
+on th the bridge.
+"Soldier: pick a weapon, rifle or Sawed-Off Shotgun."(Enter 1 for rifle, Enter 2 for Sawed-off Shotgun)

@@ -1,0 +1,2 @@
+(Soldier: "We made through the bridge! now would you lke to go above ground through the city,
+or under ground through the sewage tunnels?")(Enter 1 to go Above ground, Enter 2 to go under.)
